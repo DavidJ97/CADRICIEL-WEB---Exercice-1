@@ -1,0 +1,114 @@
+Documentation du projet
+
+Template utilisé : One Page Wonder
+
+Description :
+Ce projet utilise le template "One Page Wonder", un modèle de site web d'une seule page conçu pour créer rapidement des sites web attrayants en utilisant Bootstrap 5. Nous avons adapté ce template pour créer un blog d'architecture innovante.
+
+Détails du template :
+- Nom : One Page Wonder
+- Version : 6.0.6
+- Version de Bootstrap : 5.2.3
+- Licence : MIT
+- Date de sortie initiale : 21 septembre 2013
+- Dernière mise à jour : il y a plus d'un an (à la date de rédaction de cette documentation)
+- Nombre de téléchargements : Plus de 221 349
+
+Caractéristiques principales du template original :
+1. Menu de navigation fixe en haut de la page
+2. En-tête avec une image de fond répétitive (modifiable dans le CSS)
+3. Sections de contenu responsives avec images et texte
+
+Modifications apportées au template :
+- Adaptation du contenu pour un blog d'architecture
+- Ajout de pages supplémentaires pour les articles et le contact
+- Intégration avec Laravel pour la gestion dynamique du contenu
+- Personnalisation du design pour correspondre à l'identité visuelle d'un blog d'architecture innovante
+
+Changements CSS spécifiques :
+1. Couleur de fond :
+   Ajout d'un arrière-plan dynamique avec un dégradé animé
+   Code CSS :
+   body {
+       background: linear-gradient(-45deg, #5288a5, #7174a5, #6ea3c7, #8875b5);
+       background-size: 400% 400%;
+       animation: gradientBackground 15s ease infinite;
+   }
+
+   @keyframes gradientBackground {
+       0% { background-position: 0% 50%; }
+       50% { background-position: 100% 50%; }
+       100% { background-position: 0% 50%; }
+   }
+
+2. Couleur des textes :
+   Modification de la couleur du texte principal pour améliorer la lisibilité
+   Code CSS :
+   body {
+       color: #333333;
+   }
+
+3. Style des titres :
+   Personnalisation de la police et de la couleur des titres
+   Code CSS :
+   h1, h2, h3, h4, h5, h6 {
+       font-family: 'Montserrat', sans-serif;
+       color: #1565A4;
+   }
+
+4. Boutons :
+   Modification du style des boutons pour correspondre à la nouvelle palette de couleurs
+   Code CSS :
+   .btn-primary {
+       background-color: #55B9D5;
+       border-color: #55B9D5;
+   }
+   .btn-primary:hover {
+       background-color: #1565A4;
+       border-color: #1565A4;
+   }
+
+5. Navigation :
+   Ajustement de la barre de navigation pour un meilleur contraste
+   Code CSS :
+   .navbar-custom {
+       background-color: rgba(0, 0, 0, 0.7);
+   }
+
+6. Sections de contenu :
+   Ajout d'un effet d'ombre et de transition pour les sections de contenu
+   Code CSS :
+   .content-section {
+       background-color: rgba(255, 255, 255, 0.9);
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s ease;
+   }
+   .content-section:hover {
+       transform: translateY(-5px);
+   }
+
+Structure du projet :
+- Le projet utilise Laravel comme framework backend
+- Les vues sont organisées dans le dossier resources/views
+- Les contrôleurs se trouvent dans app/Http/Controllers
+- Les styles CSS personnalisés sont dans public/css/styles.css
+- Les scripts JavaScript sont dans public/js/scripts.js
+
+Fonctionnalités ajoutées :
+1. Page d'accueil avec présentation du blog
+2. Liste des articles d'architecture
+3. Page de détail pour chaque article
+4. Formulaire de contact
+5. Navigation entre les différentes pages
+
+Notes importantes :
+- Ce template a été choisi pour sa simplicité et sa facilité d'adaptation
+- Bien que conçu comme un site d'une seule page, je l'ai modifié pour inclure plusieurs pages
+- Les styles CSS d'origine ont été considérablement modifiés pour créer une expérience visuelle unique adaptée à un blog d'architecture innovante
+
+Pour plus d'informations sur le template original, visitez :
+https://startbootstrap.com/theme/one-page-wonder
+
+Remarque : Assurez-vous de respecter la licence MIT lors de l'utilisation de ce template.
+
+Pour toute question ou modification future, veuillez contacter à cette adresse courriel : davidjules97@gmail.com 
